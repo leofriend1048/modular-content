@@ -3,6 +3,11 @@ languageCode = 'en-us'
 title = 'Modular Content'
 theme = "paper"
 
+[module]
+  [[module.imports]]
+    path = "github.com/zyro/hugo-paper"
+
+
 [params]
   # color style
   color = 'light'                           # linen, wheat, gray, light
