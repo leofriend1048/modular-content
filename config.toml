@@ -1,0 +1,25 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Modular Content'
+theme = "paper"
+
+[params]
+  # color style
+  color = 'light'                           # linen, wheat, gray, light
+
+  # header social icons
+  twitter = 'MTBeauty_tweets'               # twitter.com/YOUR_TWITTER_ID
+  instagram = 'michaeltoddbeauty'           # instagram.com/YOUR_INSTAGRAM_ID
+  rss = true                                # show rss icon
+
+  # home page profile
+  avatar = 'leo@michaeltoddbeauty.com'                 # gravatar email or image url
+  name = 'Leo Friend'
+  bio = 'Chief Marketing Officer @ Michael Todd Beauty'
+
+
+  # misc
+  disableHLJS = true                        # disable highlight.js
+  monoDarkIcon = true                       # show monochrome dark mode icon
+  gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+  graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
