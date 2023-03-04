@@ -9,12 +9,6 @@ comments: false
 
 Welcome to my site, where I share my thoughts on technology, programming, and life in general.
 
-## Latest Posts
-
-{{ range first 5 .Site.RegularPages }}
-- [{{ .Title }}]({{ .Permalink }})
-{{ end }}
-
 ## About Me
 
 I'm a software engineer based in San Francisco. I enjoy building things that make people's lives easier and more enjoyable. When I'm not coding, you can find me hiking in the mountains, trying out new recipes in the kitchen, or playing board games with friends.
